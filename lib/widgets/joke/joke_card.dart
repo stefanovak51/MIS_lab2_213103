@@ -5,7 +5,6 @@ import 'package:lab2and3/widgets/joke/joke_data.dart';
 
 
 class JokeCard extends StatelessWidget{
-  //final int id;
   final String type;
 
   const JokeCard({super.key, required this.type});

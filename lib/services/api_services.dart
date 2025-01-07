@@ -25,7 +25,7 @@ class ApiService {
     }
   }
 
-  // Функција за добивање на случајна шега
+
   static Future<dynamic> fetchRandomJoke() async {
     final response = await http.get(Uri.parse('$baseUrl/random_joke'));
     if (response.statusCode == 200) {
@@ -40,5 +40,3 @@ class ApiService {
 }
 
 
-//List<dynamic> data = json.decode(response.body);
-//return data.map((json) => Joke.fromJson(json)).toList();
